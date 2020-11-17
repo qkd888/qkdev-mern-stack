@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+/*Importing Banger Google font*/
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap");
+/*Importing Montserrat Google font*/
+
+.App {
+  /*Selecting an element with the class of App*/
+  text-align: center;
+  margin: 0px auto;
+  width: 90%;
+}
+
+body {
+  /*Selecting the body element*/
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  /*Selecting an element with the class of Haader*/
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px 150px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin-bottom: 15px;
+}
+
+.header .logo {
+  /*Selecting the element with the class of logo that is inside of an element with a a class of header*/
+  font-family: "Bangers", cursive;
+  font-size: 35px;
+}
+
+.menuList {
+  /*Selecting an element with the class of menuList*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+}
+.menuList li {
+  /*Selecting all the list elements inside of the element with the class of menuList*/
+  list-style: none;
+  height: 50px;
+  margin: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+}
+
+.menuList li a {
+  /*Selecting all the anchor elements inside of the list elements inside the element with the class of menuList*/
+  text-decoration: none;
+  color: black;
+}
+
+.leftMenuItem {
+  /*Selecting an element with the class of leftMenuItem*/
+  padding: 0px 15px;
+}
+
+.o7Arena {
+  /*Selecting an element with the class of o7Arena*/
+  filter: grayscale(90%);
+  width: 85%;
+  height: 60vh;
+  margin: 0px;
+}
+.mainHeading {
+  /*Selecting an element with the class of menuHeading*/
+  font-size: 40px;
+  margin: 0px;
+  padding-top: 15px;
+}
+.subHeading {
+  /*Selecting an element with the class of subHeading*/
+  height: 90px;
+  margin: 0px;
+}
+
+.landing {
+  /*Selecting an element with the class of landing*/
+  margin: 0px;
+}
+
+.highlightsContainer {
+  /*Selecting an element with the class of highlightsContainer*/
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.highlight {
+  /*Selecting an element with the class of highlight*/
+  text-align: left;
+  margin: auto;
+}
+
+.subHeading2 {
+  /*Selecting an element with the class of subHeading2*/
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.signUpContainer,
+.signInContainer {
+  /*Selecting the elements with the classes signUpConatiner and signInContainer*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
+.signUpContainer form,
+.signInContainer form {
+  /*Selecting form elements inside elements with classes signUpConatiner and signInConatiner */
+  width: 70%;
+  text-align: left;
+}
+
+.signUpContainer img,
+.signInImage {
+  /*Selecting the image element inside of the element with the class of signUpContainer and selecting
+  the element with the class of signUpImage*/
+  width: 80%;
+  margin: auto;
+  height: 500px;
+}
+
+.credentials input {
+  /*Selecting input elements  inside the element with the class of credentials*/
+  width: 350px;
+  outline: none;
+  background: none;
+  font-size: 20px;
+  margin: 25px 10px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.signUpHeading,
+.signInHeading {
+  /*Selecting elements with classes signInHeading and signUpHeading*/
+  margin-bottom: 25 px;
+  font-size: 35px;
+}
+
+.signUpBtn,
+.signInBtn,
+.updateBtn,
+.addEvent,
+.editEvent {
+  /*Selecting elements with classes signUpBtn,signInBtn,updateBtn,addEvent and editEvent*/
+  width: 90%;
+  margin: 15px auto;
+  background-color: lightgray;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.addEvent,
+.editEvent {
+  /*Selecting elements with classes addEvent and editEvent*/
+  width: 60%;
+}
+
+.editEvent {
+  /*Selecting an element with the class of editEvent*/
+  background-color: lightcyan;
+}
+.signInContainer h5 {
+  /*Selecting heading 5 element inside the element with the class of signInContainer*/
+  text-align: center;
+  width: 90%;
+}
+
+span {
+  /*Selecting span element*/
+  margin-left: 25px;
+}
+
+.googleSignInBtn,
+.githubSignInBtn {
+  /*Selecting elements with the classes googleSignInBtn and githubSignInBtn*/
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.credentials select {
+  /*Selecting select element inside the element with the class of credentials*/
+  width: 360px;
+  position: relative;
+  left: 30px;
+  font-size: 20px;
+  outline: none;
+}
+
+.updateForm {
+  /*Selecting an element with the class of updateForm*/
+  width: 50%;
+  margin: auto;
+}
+
+.signOutBtn {
+  /*Selecting an element with the class of signOutBtn*/
+  font-size: 23px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.eventInput {
+  /*Selecting an element with the class of eventInput*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.eventInputImage {
+  /*Selecting an element with the class of eventInputImage*/
+  width: 90%;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.eventInput form {
+  /*Selecting form element inside the element with the class of eventInput*/
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.eventInput form input,
+textarea {
+  /*Selecting form input inside the element with the class of eventInput and selecting all textarea elements */
+  width: 400px;
+  outline: none;
+  background: none;
+  font-size: 20px;
+  margin: 25px 0px;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: auto;
+}
+
+.eventsContainer,
+.subEventsContainer {
+  /*Selecting elements with classes eventsContainer and subEventsContainer*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.eventItem {
+  /*Selecting an element with the class of eventItem*/
+  width: 400px;
+  margin: 10px auto;
+  box-shadow: 0px 1px 15px 5px rgba(219, 216, 219, 1);
+  padding: 10px;
+}
+
+.edit,
+.delete {
+  /*Selecting elements with classes edit and delete*/
+  margin-right: 5px;
+}
+.edit:hover {
+  /*Adding a hover pseudo class to the elemeent with the class of edit*/
+  color: blue;
+}
+
+.delete:hover {
+  /*Adding a hover pseudo class to the elemeent with the class of edit*/
+  color: tomato;
+}
+
+.upcomingEvents {
+  /*Selecting an element with the class of upcomingEvents*/
+  border-top: 2px solid gray;
+  width: 70%;
+  margin: 100px auto 50px auto;
+  padding-top: 50px;
+}
+
+.subscriberEvent {
+  /*Selecting an element with the class of subscriberEvent*/
+  border-bottom: 1px solid black;
+  width: 90%;
+}
+
+.events {
+  /*Selecting an element with the class of events*/
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.upcomingEventsHeading {
+  /*Selecting an element with the class of upcomingEventsHeading*/
+  margin: 50px auto;
+}
+.signUpBtn:hover,
+.signInBtn:hover,
+.updateBtn:hover,
+.addEvent:hover,
+.editEvent:hover,
+.edit:hover,
+.delete:hover {
+  /*Adding a hover pseudo class to the elements with the classes signUpBtn,SignInBtn,updateBtn,
+  addEvent,editBtn,edit and delete*/
+  cursor: pointer;
+}
