@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin events container renders correctly with empty array 1`] = `
+<h1>
+  No upcoming events
+</h1>
+`;
+
+exports[`Admin events container renders correctly with populuated array 1`] = `
+<div
+  className="event"
+>
+  <h1
+    className="upcomingEvents"
+  >
+     Upcoming Events
+  </h1>
+  <div
+    className="eventsContainer"
+  >
+    <div>
+      <div
+        className="eventItem"
+      >
+        <p>
+          global citizen
+        </p>
+        <p>
+          Best concert of your life
+        </p>
+        <p>
+          2 December 2018
+        </p>
+        <button
+          className="edit"
+          onClick={[Function]}
+        >
+          Edit
+        </button>
+        <button
+          className="delete"
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders correctly with empty array 1`] = `
+<h1>
+  No upcoming events
+</h1>
+`;
+
+exports[`Renders correctly with populuated array 1`] = `
+<div
+  className="event"
+>
+  <h1
+    className="upcomingEvents"
+  >
+     Upcoming Events
+  </h1>
+  <div
+    className="eventsContainer"
+  >
+    <div>
+      <div
+        className="eventItem"
+      >
+        <p>
+          global citizen
+        </p>
+        <p>
+          Best concert of your life
+        </p>
+        <p>
+          2 December 2018
+        </p>
+        <button
+          className="edit"
+          onClick={[Function]}
+        >
+          Edit
+        </button>
+        <button
+          className="delete"
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Subscriber events renders correctly with empty array 1`] = `
+<h1>
+  No upcoming events
+</h1>
+`;
+
+exports[`Subscriber events renders correctly with populuated array 1`] = `
+<div
+  className="event"
+>
+  <h1
+    className="upcomingEvents"
+  >
+     Upcoming Events
+  </h1>
+  <div
+    className="eventsContainer"
+  >
+    <div>
+      <div
+        className="eventItem"
+      >
+        <p>
+          global citizen
+        </p>
+        <p>
+          Best concert of your life
+        </p>
+        <p>
+          2 December 2018
+        </p>
+        <button
+          className="edit"
+          onClick={[Function]}
+        >
+          Edit
+        </button>
+        <button
+          className="delete"
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
